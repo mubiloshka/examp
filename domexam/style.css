@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    background: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .container {
+    margin-top: 100px;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background: orange;
+    border-radius: 10px;
+  }
+  
+  .number, .operator {
+    background: white;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 24px;
+    width: 50px;
+    text-align: center;
+  }
+  
+  #checkBtn {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background: green;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .result {
+    margin-top: 20px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
